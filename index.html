@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Gourmandine – Produits régionaux et dégustations à Honfleur</title>
-    <meta name="description" content="Boutique de produits régionaux à Honfleur : cidres, calvados, pommeau, terrines, confitures, sablés. Dégustations en boutique, rue des Logettes.">
+    <title>La Gourmandine – Produits normands et dégustations à Honfleur</title>
+    <meta name="description" content="La Gourmandine, boutique de produits normands à Honfleur : cidres, calvados, pommeau, terrines, confitures, sablés et souvenirs. Dégustations en boutique, rue des Logettes.">
     <!-- Brouillon : retirer cette ligne au moment de la mise en ligne -->
     <meta name="robots" content="noindex">
     <meta name="theme-color" content="#F0B92A">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="preload" href="fonts/zilla-slab-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="style.css?v=1">
+    <link rel="stylesheet" href="style.css?v=2">
     <script>document.documentElement.className = "js";</script>
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Store",
         "name": "La Gourmandine",
-        "description": "Boutique de produits régionaux à Honfleur : cidres, calvados, pommeau, terrines, confitures, sablés, avec dégustations en boutique.",
+        "description": "Boutique de produits normands à Honfleur : cidres, calvados, pommeau, terrines, confitures, sablés et souvenirs, avec dégustations en boutique.",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "7 rue des Logettes",
@@ -35,6 +35,7 @@
         <nav class="entete-nav" aria-label="Navigation principale">
             <a href="#degustations">Dégustations</a>
             <a href="#boutique">La boutique</a>
+            <a href="#souvenirs">Souvenirs</a>
             <a href="#lenclos">L'Enclos</a>
             <a href="#venir" class="entete-venir">Nous trouver</a>
         </nav>
@@ -45,7 +46,8 @@
         <section class="accueil">
             <div class="accueil-texte">
                 <h1>La Gourmandine</h1>
-                <p class="accueil-accroche">Cidres, calvados, terrines, confitures, sablés&nbsp;: les produits de Normandie, à goûter sur place et à rapporter chez vous.</p>
+                <p class="accueil-slogan">On entre pour un cidre.<br>On ressort avec tout le reste.</p>
+                <p class="accueil-accroche">La boutique de produits normands de Honfleur : cidres, calvados, terrines, confitures, sablés… et des dégustations pour ne rien acheter à l'aveugle.</p>
                 <div class="accueil-actions">
                     <a class="bouton" href="#degustations">Ce que l'on goûte</a>
                     <a class="lien" href="https://www.google.com/maps/dir/?api=1&amp;destination=7+rue+des+Logettes%2C+14600+Honfleur" target="_blank" rel="noopener">Itinéraire</a>
@@ -53,13 +55,25 @@
             </div>
             <figure class="accueil-image">
                 <img src="images/hero.webp" width="1600" height="1005" alt="Étagères de cidres, de poirés et de calvados de la boutique La Gourmandine">
+                <span class="accueil-etiquette">Dégustations en boutique</span>
             </figure>
         </section>
 
+        <div class="defile" aria-hidden="true">
+            <div class="defile-piste">
+                <ul>
+                    <li>Calvados</li><li>Pommeau</li><li>Crème de pomme verte</li><li>Crème de calvados</li><li>Liqueur de poire</li><li>Confiture de lait</li><li>Gelée de cidre</li><li>Terrine de la mer</li>
+                </ul>
+                <ul>
+                    <li>Calvados</li><li>Pommeau</li><li>Crème de pomme verte</li><li>Crème de calvados</li><li>Liqueur de poire</li><li>Confiture de lait</li><li>Gelée de cidre</li><li>Terrine de la mer</li>
+                </ul>
+            </div>
+        </div>
+
         <section class="degustations" id="degustations">
             <div class="degustations-tete rev">
-                <h2>On goûte avant d'emporter.</h2>
-                <p>À La Gourmandine, les dégustations font partie de la visite. Demandez, on vous sert.</p>
+                <h2>Goûtez d'abord. Craquez ensuite.</h2>
+                <p>Ici, on ne vous demande pas d'acheter les yeux fermés. Voici ce qui se déguste en boutique&nbsp;: servez-vous du regard, on s'occupe du reste.</p>
             </div>
             <div class="degustations-listes">
                 <div class="liste rev">
@@ -86,40 +100,58 @@
                     <img src="images/frais.webp" width="1200" height="754" loading="lazy" alt="Vitrine de la boutique avec des vins, des verres et des fromages fermiers sur de la paille">
                 </figure>
                 <div class="frais-texte">
-                    <h3>Au frais, si vous le souhaitez</h3>
-                    <p>Vins blancs, rosés et champagne&nbsp;: servis bien frais, sur simple demande.</p>
+                    <h3>Blanc, rosé, champagne&nbsp;: au frais, bien sûr.</h3>
+                    <p>Un apéro qui se profile&nbsp;? Dites-le, on vous sort les vins blancs, les rosés et le champagne bien frais.</p>
                 </div>
             </div>
         </section>
 
         <section class="boutique" id="boutique">
             <div class="boutique-tete rev">
-                <h2>La Normandie, sur les étagères.</h2>
-                <p>Des produits régionaux à offrir ou à garder pour soi, rangés du sol au plafond dans la boutique de la rue des Logettes.</p>
+                <h2>Ça déborde de partout.</h2>
+                <p>Cidres, poirés et calvados de producteurs normands, bières, vinaigres, terrines, vins, fromages fermiers, confitures, caramels… Du sol au plafond, il y a toujours une étagère qu'on n'avait pas vue.</p>
             </div>
             <div class="mosaique">
-                <figure class="m-cidres rev"><img src="images/cidres.webp" width="1200" height="754" loading="lazy" alt="Bouteilles de cidre et de poiré alignées sur un comptoir de marbre"><figcaption>Cidres, poirés et calvados</figcaption></figure>
+                <figure class="m-cidres rev"><img src="images/cidres.webp" width="1200" height="754" loading="lazy" alt="Bouteilles de cidre et de poiré alignées sur un comptoir de marbre"><figcaption>Cidres, poirés, calvados</figcaption></figure>
                 <figure class="m-bieres rev"><img src="images/bieres.webp" width="1200" height="754" loading="lazy" alt="Étagère d'ardoise avec des bouteilles de bière et de vinaigre"><figcaption>Bières et vinaigres</figcaption></figure>
                 <figure class="m-terrines rev"><img src="images/terrines.webp" width="1200" height="754" loading="lazy" alt="Rayon de terrines et de rillettes en pots avec une ardoise « terrine de la mer »"><figcaption>Terrines et rillettes</figcaption></figure>
                 <figure class="m-vins rev"><img src="images/vins.webp" width="1200" height="754" loading="lazy" alt="Rayon de vins blancs et rosés avec des verres"><figcaption>Vins</figcaption></figure>
-                <figure class="m-boites rev"><img src="images/boites.webp" width="1200" height="754" loading="lazy" alt="Boîtes de biscuits aux couleurs de la Normandie : falaises d'Étretat, Mont-Saint-Michel, vaches normandes"><figcaption>Palets, sablés et biscuits en boîtes de collection</figcaption></figure>
-                <figure class="m-panier rev"><img src="images/panier.webp" width="900" height="794" loading="lazy" alt="Panier de caramels, de sablés et de petites boîtes colorées, avec un fromage"><figcaption>Caramels et sablés</figcaption></figure>
-                <figure class="m-honfleur rev"><img src="images/honfleur.webp" width="1200" height="754" loading="lazy" alt="Boîte en métal illustrée du port de Honfleur"><figcaption>Le port de Honfleur sur une boîte à garder</figcaption></figure>
-                <figure class="m-vitrine rev"><img src="images/vitrine.webp" width="1200" height="754" loading="lazy" alt="Vitrine avec des pots de miel, de confiture de lait et de terrines"><figcaption>La vitrine : miel, confiture de lait, terrines</figcaption></figure>
+            </div>
+        </section>
+
+        <section class="souvenirs" id="souvenirs">
+            <div class="souvenirs-tete rev">
+                <h2>Le souvenir qui se mange.</h2>
+                <p>Un aimant au bout du frigo, ça finit à la poubelle. Une boîte de sablés aux couleurs de la Normandie, un pot de confiture de lait, une bouteille de calvados&nbsp;: ça, on s'en souvient. Et on la rapporte pleine.</p>
+            </div>
+            <div class="souvenirs-photos">
+                <figure class="s-boites rev"><img src="images/boites.webp" width="1200" height="754" loading="lazy" alt="Boîtes de biscuits aux couleurs de la Normandie : falaises d'Étretat, Mont-Saint-Michel, vaches normandes"><figcaption>Boîtes de sablés et de palets</figcaption></figure>
+                <figure class="s-honfleur rev"><img src="images/honfleur.webp" width="1200" height="754" loading="lazy" alt="Boîte en métal illustrée du port de Honfleur"><figcaption>Honfleur en boîte</figcaption></figure>
+            </div>
+        </section>
+
+        <section class="mystere rev">
+            <figure class="mystere-photo">
+                <img src="images/panier.webp" width="900" height="794" loading="lazy" alt="Panier de caramels, de sablés et de petites boîtes colorées, avec un fromage">
+            </figure>
+            <div class="mystere-texte">
+                <h2>Et le reste&nbsp;?</h2>
+                <p>On n'a pas tout mis en photo. Volontairement. Il y a ce qu'on voit en vitrine, et il y a ce qu'on découvre en poussant la porte.</p>
+                <a class="bouton" href="#venir">Pousser la porte</a>
             </div>
         </section>
 
         <section class="lenclos" id="lenclos">
             <div class="lenclos-contenu rev">
-                <h2>Et pour déjeuner&nbsp;?</h2>
-                <p>L'Enclos est un bistrot familial et bar à vin, au 21 rue de la Ville, à Honfleur. Une cuisine de bistrot, des vins de propriétaires, en terrasse ou en salle.</p>
+                <h2>Après les courses, à table.</h2>
+                <p>L'Enclos, bistrot familial et bar à vin, vous attend au 21 rue de la Ville, à Honfleur. Une cuisine de bistrot, des vins de propriétaires, en terrasse ou en salle.</p>
                 <a class="bouton bouton-clair" href="https://lenclos-honfleur.fr/" rel="noopener">Découvrir L'Enclos</a>
             </div>
         </section>
 
         <section class="venir" id="venir">
             <div class="venir-contenu rev">
-                <h2>Passez nous voir.</h2>
+                <h2>Poussez la porte.</h2>
                 <address>
                     La Gourmandine<br>
                     7 rue des Logettes<br>
