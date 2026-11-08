@@ -146,10 +146,14 @@ p { max-width: 62ch; text-wrap: pretty; }
 .douceurs-texte .bouton { margin-top: 2rem; }
 
 /* L'Enclos */
-.lenclos { background: var(--ardoise); color: #EDEAE0; padding: var(--espace) var(--marge); }
+/* Le bistrot garde ses couleurs : taupe et vert sauge, comme sur son propre site */
+.lenclos { background: #5D534E; color: #EFE9DE; padding: var(--espace) var(--marge); }
 .lenclos-contenu { max-width: 46rem; }
-.lenclos h2 { color: var(--jaune); }
+.lenclos h2 { color: #F7F3EC; }
 .lenclos p { margin: 1.4rem 0 2rem; font-weight: 300; font-size: 1.2rem; }
+.lenclos .bouton-clair { background: #587770; color: #fff; }
+.lenclos .bouton-clair:hover { background: #4a6760; }
+.lenclos :focus-visible { outline-color: #F7F3EC; }
 
 /* Nous trouver */
 .venir { padding: var(--espace) var(--marge); }
