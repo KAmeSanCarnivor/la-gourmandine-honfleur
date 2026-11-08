@@ -1,0 +1,13 @@
+{
+    "name": "La Gourmandine",
+    "short_name": "La Gourmandine",
+    "description": "Boutique de produits normands à Honfleur",
+    "start_url": "/",
+    "display": "browser",
+    "background_color": "#F0B92A",
+    "theme_color": "#F0B92A",
+    "icons": [
+        { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+        { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+    ]
+}

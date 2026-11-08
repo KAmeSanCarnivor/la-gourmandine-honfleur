@@ -8,16 +8,45 @@
     <!-- Brouillon : retirer cette ligne au moment de la mise en ligne -->
     <meta name="robots" content="noindex">
     <meta name="theme-color" content="#F0B92A">
+    <link rel="canonical" href="https://lagourmandine-honfleur.fr/">
+
+    <!-- Aperçu lors du partage (WhatsApp, Facebook...) : adresses à jour si le nom de domaine change -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="La Gourmandine">
+    <meta property="og:title" content="La Gourmandine – Produits normands et dégustations à Honfleur">
+    <meta property="og:description" content="Cidres, calvados, pommeau, terrines, confitures, sablés et souvenirs. Dégustations en boutique, rue des Logettes à Honfleur.">
+    <meta property="og:url" content="https://lagourmandine-honfleur.fr/">
+    <meta property="og:image" content="https://lagourmandine-honfleur.fr/apercu-partage.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Étagères de cidres et de calvados de la boutique La Gourmandine à Honfleur">
+    <meta name="twitter:card" content="summary_large_image">
+
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon.ico" sizes="48x48">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
     <link rel="preload" href="fonts/zilla-slab-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="style.css?v=2">
+    <link rel="stylesheet" href="style.css?v=3">
     <script>document.documentElement.className = "js";</script>
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Store",
         "name": "La Gourmandine",
+        "url": "https://lagourmandine-honfleur.fr/",
+        "image": "https://lagourmandine-honfleur.fr/apercu-partage.jpg",
         "description": "Boutique de produits normands à Honfleur : cidres, calvados, pommeau, terrines, confitures, sablés et souvenirs, avec dégustations en boutique.",
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                "opens": "10:30",
+                "closes": "18:00"
+            }
+        ],
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "7 rue des Logettes",
@@ -158,6 +187,7 @@
                     7 rue des Logettes<br>
                     14600 Honfleur
                 </address>
+                <p class="venir-horaires">Ouvert tous les jours, de 10h30 à 18h00.</p>
                 <a class="bouton" href="https://www.google.com/maps/dir/?api=1&amp;destination=7+rue+des+Logettes%2C+14600+Honfleur" target="_blank" rel="noopener">Calculer l'itinéraire</a>
             </div>
         </section>
@@ -165,7 +195,7 @@
     </main>
 
     <footer class="pied">
-        <p>&copy; 2026 La Gourmandine, Honfleur</p>
+        <p>&copy; 2026 La Gourmandine, Honfleur &middot; <a href="mentions-legales.html">Mentions légales</a></p>
     </footer>
 
     <script>

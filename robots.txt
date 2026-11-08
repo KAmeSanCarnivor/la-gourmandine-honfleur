@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lagourmandine-honfleur.fr/sitemap.xml
