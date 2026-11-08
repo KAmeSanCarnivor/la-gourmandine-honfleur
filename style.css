@@ -134,13 +134,16 @@ p { max-width: 62ch; text-wrap: pretty; }
     .s-boites img { aspect-ratio: 9 / 8; }
 }
 
-/* Le reste ? */
-.mystere { padding: var(--espace) var(--marge); display: grid; gap: 2.5rem clamp(2rem, 6vw, 5rem); align-items: center; }
-@media (min-width: 800px) { .mystere { grid-template-columns: 5fr 7fr; } }
-.mystere-photo { margin: 0; }
-.mystere-photo img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; transform: rotate(-2.5deg); border: 0.6rem solid var(--ardoise); }
-.mystere h2 { max-width: 10ch; font-size: clamp(2.6rem, 7vw, 5rem); }
-.mystere-texte p { margin: 1.4rem 0 2rem; font-size: 1.25rem; }
+/* Caramels et sablés */
+.douceurs { padding: var(--espace) var(--marge); display: grid; gap: 2.5rem clamp(2rem, 6vw, 5rem); align-items: center; }
+@media (min-width: 800px) { .douceurs { grid-template-columns: 5fr 6fr; } }
+.douceurs-photo { position: relative; margin: 0; overflow: hidden; }
+.douceurs-photo img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; transition: transform 0.9s var(--sortie); }
+.douceurs-photo:hover img { transform: scale(1.04); }
+.douceurs-photo figcaption { position: absolute; left: 0.9rem; bottom: 0.9rem; background: var(--jaune); color: var(--ardoise); font-family: 'Zilla Slab', Georgia, serif; font-weight: 700; font-size: clamp(1rem, 1.6vw, 1.2rem); line-height: 1.2; padding: 0.4rem 0.8rem; transform: rotate(-1.5deg); transform-origin: left bottom; }
+.douceurs h2 { max-width: 14ch; }
+.douceurs-texte p { margin-top: 1.3rem; font-size: 1.2rem; }
+.douceurs-texte .bouton { margin-top: 2rem; }
 
 /* L'Enclos */
 .lenclos { background: var(--ardoise); color: #EDEAE0; padding: var(--espace) var(--marge); }
